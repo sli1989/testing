@@ -1317,7 +1317,6 @@ pre .javascript .function {
 }
 .posts-expand .post-body ul li {
   list-style: circle;
-  margin: 0 10px 10px 0;
 }
 .posts-expand .post-body img {
   box-sizing: border-box;
@@ -1823,7 +1822,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #c711ff;
+  background: #ff2dfc;
 }
 .links-of-blogroll {
   font-size: 13px;
