@@ -513,7 +513,7 @@ pre code {
   text-shadow: none;
 }
 .highlight {
-  border-radius: 1px;
+  border-radius: 10px;
 }
 .highlight pre {
   border: none;
@@ -534,6 +534,10 @@ pre code {
   color: #4d4d4c;
   line-height: 1em;
   margin-bottom: 1em;
+  margin: 0em;
+  padding: 0.5em;
+  background: #eee;
+  border-bottom: 1px solid #e9e9e9;
 }
 .highlight figcaption:before,
 .highlight figcaption:after {
@@ -1818,7 +1822,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #70ffb0;
+  background: #52589d;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -1947,12 +1951,10 @@ pre .javascript .function {
 .footer-inner {
   text-align: center;
 }
-#heart {
-  animation: heartAnimate 1.33s ease-in-out infinite;
-}
 .with-love {
   display: inline-block;
   margin: 0 5px;
+  color: #808080;
 }
 .powered-by,
 .theme-info {
