@@ -5,6 +5,12 @@
 
 
 
+
+
+
+
+
+
   
 
 
@@ -52,19 +58,19 @@
 
 <link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
 
-<link href="/css/main.css?v=6.2.0" rel="stylesheet" type="text/css" />
+<link href="/css/main.css?v=6.3.0" rel="stylesheet" type="text/css" />
 
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=6.2.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=6.3.0">
 
 
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=6.2.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=6.3.0">
 
 
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=6.2.0">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=6.3.0">
 
 
-  <link rel="mask-icon" href="/images/logo.svg?v=6.2.0" color="#222">
+  <link rel="mask-icon" href="/images/logo.svg?v=6.3.0" color="#222">
 
 
 
@@ -79,8 +85,8 @@
   var CONFIG = {
     root: '/',
     scheme: 'Gemini',
-    version: '6.2.0',
-    sidebar: {"position":"left","display":"always","offset":12,"b2t":false,"scrollpercent":true,"onmobile":true},
+    version: '6.3.0',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":true,"onmobile":true},
     fancybox: false,
     fastclick: false,
     lazyload: false,
@@ -102,20 +108,22 @@
 
 
 
-  <meta name="description" content="welcome to codeblock style test. Using codeblock tag plugin, recommend use Backtick Code Block. Just add [language] [title] [url] [link text] in backtick of code block, like yml file-location www....c">
+  <meta name="description" content="welcome to codeblock style test. Using codeblock tag plugin, recommend use Backtick Code Block. Just add [language] [title] [url] [link text] in backtick of code block, like yml file-location www....">
 <meta name="keywords" content="codeblock">
 <meta property="og:type" content="article">
 <meta property="og:title" content="codeblock style test">
 <meta property="og:url" content="http://test.saili.science/posts/codeblock-test/index.html">
 <meta property="og:site_name" content="NexT Test">
-<meta property="og:description" content="welcome to codeblock style test. Using codeblock tag plugin, recommend use Backtick Code Block. Just add [language] [title] [url] [link text] in backtick of code block, like yml file-location www....c">
+<meta property="og:description" content="welcome to codeblock style test. Using codeblock tag plugin, recommend use Backtick Code Block. Just add [language] [title] [url] [link text] in backtick of code block, like yml file-location www....">
 <meta property="og:locale" content="en">
 <meta property="og:updated_time" content="2018-03-21T04:13:29.607Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="codeblock style test">
-<meta name="twitter:description" content="welcome to codeblock style test. Using codeblock tag plugin, recommend use Backtick Code Block. Just add [language] [title] [url] [link text] in backtick of code block, like yml file-location www....c">
+<meta name="twitter:description" content="welcome to codeblock style test. Using codeblock tag plugin, recommend use Backtick Code Block. Just add [language] [title] [url] [link text] in backtick of code block, like yml file-location www....">
 
 
+
+  <link rel="alternate" href="http://www.tmtpost.com/rss.xml" title="NexT Test" type="application/atom+xml" />
 
 
 
@@ -192,9 +200,7 @@
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
-      
-        <p class="site-subtitle"></p>
-      
+    
   </div>
 
   <div class="site-nav-toggle">
@@ -205,7 +211,6 @@
     </button>
   </div>
 </div>
-
 
 
 
@@ -227,7 +232,7 @@
           
           <li class="menu-item menu-item-archives">
     <a href="/archives/" rel="section">
-      <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />Archives<span class="badge">3</span></a>
+      <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />Archives<span class="badge">6</span></a>
   </li>
         
         
@@ -235,7 +240,7 @@
           
           <li class="menu-item menu-item-categories">
     <a href="/categories/" rel="section">
-      <i class="menu-item-icon fa fa-fw fa-th"></i> <br />Categories<span class="badge">0</span></a>
+      <i class="menu-item-icon fa fa-fw fa-th"></i> <br />Categories<span class="badge">1</span></a>
   </li>
         
         
@@ -243,7 +248,7 @@
           
           <li class="menu-item menu-item-tags">
     <a href="/tags/" rel="section">
-      <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />Tags<span class="badge">2</span></a>
+      <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />Tags<span class="badge">4</span></a>
   </li>
 
       
@@ -298,7 +303,7 @@
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="NexT Test">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="There is no royal road to learning.">
       <meta itemprop="image" content="/uploads/avatar.jpg">
     </span>
 
@@ -325,23 +330,20 @@
             
 
             
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
+
+            
               
 
               
                 
-              
 
-              <time title="Created: 2018-03-21 12:39:04 / Modified: 12:13:29" itemprop="dateCreated datePublished" datetime="2018-03-21T12:39:04+08:00">2018-03-21</time>
-            
-
-            
-              
-
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Last updated: </span>
+                
+                <time title="Modified: 2018-03-21 12:13:29" itemprop="dateModified" datetime="2018-03-21T12:13:29+08:00">2018-03-21</time>
               
             
           </span>
@@ -390,7 +392,7 @@
                   <i class="fa fa-clock-o"></i>
                 </span>
                 
-                  <span class="post-meta-item-text">Reading time &asymp;</span>
+                  <span class="post-meta-item-text">Reading time: </span>
                 
                 <span title="Reading time">0:02</span>
               
@@ -414,7 +416,7 @@
       
         <p>welcome to codeblock style test.</p>
 <p>Using <a href="https://hexo.io/docs/tag-plugins.html" target="_blank" rel="noopener">codeblock tag plugin</a>, recommend use <a href="https://hexo.io/docs/tag-plugins.html#Backtick-Code-Block" target="_blank" rel="noopener">Backtick Code Block</a>. Just add <code>[language] [title] [url] [link text]</code> in backtick of code block, like <code>yml file-location www....com url-name</code> , <code>diff file-location www....com url-name</code></p>
-<a id="more"></a> 
+<a id="more"></a>
 <figure class="highlight bash"><figcaption><span>bash</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> git@github.com:sli1989/hexo-theme-next.git</span><br><span class="line"><span class="built_in">cd</span> &lt;fold&gt;</span><br><span class="line">git remote add upstream git@github.com:theme-next/hexo-theme-next.git</span><br><span class="line">git fetch upstream</span><br><span class="line">git merge upstream/master</span><br><span class="line">git push origin branchname</span><br></pre></td></tr></table></figure>
 <figure class="highlight yml"><figcaption><span>yml for ~/hexo/source/_data/next.yml</span><a href="https://highlightjs.org/static/demo/" target="_blank" rel="noopener">highlight.js</a></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Redefine custom file paths. Introduced in NexT v6.0.2.</span></span><br><span class="line"><span class="comment"># If commented, will be used default custom file paths.</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># For example, you want to put your custom styles file</span></span><br><span class="line"><span class="comment"># outside theme directory in root `source/_data`, set</span></span><br><span class="line"><span class="comment"># `styles: source/_data/styles.styl`</span></span><br><span class="line"><span class="attr">custom_file_path:</span></span><br><span class="line">  <span class="comment"># Default paths: layout/_custom/*</span></span><br><span class="line">  <span class="comment">#head: source/_data/head.swig # layout/_custom/head.swig</span></span><br><span class="line">  <span class="comment">#header: source/_data/header.swig # layout/_custom/header.swig</span></span><br><span class="line">  <span class="comment">#sidebar: source/_data/sidebar.swig # layout/_custom/sidebar.swig</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Default path: source/css/_custom/custom.styl</span></span><br><span class="line"><span class="attr">  styles:</span> <span class="string">source/_data/styles.styl</span></span><br><span class="line">  <span class="comment"># Default path: source/css/_mixins/custom.styl</span></span><br><span class="line">  <span class="comment">#mixins: source/_data/mixins.styl</span></span><br><span class="line">  <span class="comment"># Default path: source/css/_variables/custom.styl</span></span><br><span class="line"><span class="attr">  variables:</span> <span class="string">source/_data/variables.styl</span></span><br></pre></td></tr></table></figure>
 <figure class="highlight styl"><figcaption><span>styl for ~/hexo/source/css/_common/components/highlight/highlight.styl</span><a href="https://highlightjs.org/static/demo/" target="_blank" rel="noopener">highlight.js</a></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// the top style of the article code block</span></span><br><span class="line"><span class="selector-class">.highlight</span> <span class="selector-tag">figcaption</span> &#123;</span><br><span class="line">    <span class="attribute">margin</span>: <span class="number">0em</span>;</span><br><span class="line">    <span class="attribute">padding</span>: <span class="number">0.5em</span>;</span><br><span class="line">    <span class="attribute">background</span>: <span class="number">#eee</span>;</span><br><span class="line">    <span class="attribute">border-bottom</span>: <span class="number">1px</span> solid <span class="number">#e9e9e9</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// add rounded code block</span></span><br><span class="line"><span class="selector-class">.highlight</span> &#123; <span class="attribute">border-radius</span>: <span class="number">5px</span>;&#125;</span><br><span class="line">pre &#123; <span class="attribute">border-radius</span>: <span class="number">5px</span>;&#125;</span><br></pre></td></tr></table></figure>
@@ -434,6 +436,20 @@
 
     
 
+    
+      <div>
+        <ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>Post author:  </strong>NexT Test</li>
+  <li class="post-copyright-link">
+    <strong>Post link: </strong>
+    <a href="http://test.saili.science/posts/codeblock-test/" title="codeblock style test">http://test.saili.science/posts/codeblock-test/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>Copyright Notice:  </strong>All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 4.0</a> unless stating additionally.</li>
+</ul>
+
+      </div>
     
 
     <footer class="post-footer">
@@ -462,6 +478,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/posts/math-test/" rel="prev" title="MATH testing">
+                MATH testing <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -520,11 +540,9 @@
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
-              <a href="https://github.com/theme-next/hexo-theme-next" class="site-author-image" style="border:none">
               <img class="site-author-image" itemprop="image"
                 src="/uploads/avatar.jpg"
                 alt="NexT Test" />
-              </a>
             
               <p class="site-author-name" itemprop="name">NexT Test</p>
               <p class="site-description motion-element" itemprop="description">There is no royal road to learning.</p>
@@ -537,12 +555,25 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">3</span>
+                    <span class="site-state-item-count">6</span>
                     <span class="site-state-item-name">posts</span>
                   </a>
                 </div>
               
 
+              
+                
+                
+                <div class="site-state-item site-state-categories">
+                  <a href="/categories/index.html">
+                    
+                    
+                      
+                    
+                    <span class="site-state-item-count">1</span>
+                    <span class="site-state-item-name">categories</span>
+                  </a>
+                </div>
               
 
               
@@ -556,7 +587,11 @@
                     
                       
                     
-                    <span class="site-state-item-count">2</span>
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">4</span>
                     <span class="site-state-item-name">tags</span>
                   </a>
                 </div>
@@ -565,13 +600,66 @@
           
 
           
-
+            <div class="feed-link motion-element">
+              <a href="http://www.tmtpost.com/rss.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
           
 
           
+            <div class="links-of-author motion-element">
+              
+                <span class="links-of-author-item">
+                  <a href="https://github.com/sli1989" target="_blank" title="GitHub"><i class="fa fa-fw fa-github"></i>GitHub</a>
+                  
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="mailto:sli@hust.edu.cn" target="_blank" title="E-Mail"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                  
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="https://t.me/sli1989" target="_blank" title="Telegram"><i class="fa fa-fw fa-telegram"></i>Telegram</a>
+                  
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="https://gitter.im/sli1989" target="_blank" title="Gitter"><i class="fa fa-fw fa-github-alt"></i>Gitter</a>
+                  
+                </span>
+              
+            </div>
           
 
           
+          
+
+          
+          
+            <div class="links-of-blogroll motion-element links-of-blogroll-block">
+              <div class="links-of-blogroll-title">
+                <i class="fa  fa-fw fa-link"></i>
+                Links
+              </div>
+              <ul class="links-of-blogroll-list">
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://github.com/sli1989/HEXO-NEXT-CUSTOM" title="About the Blog" target="_blank">About the Blog</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="http://fontawesome.io/icons/" title="Font Awesome Icons" target="_blank">Font Awesome Icons</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://getemoji.com/" title="Copy and Paste Emoji" target="_blank">Copy and Paste Emoji</a>
+                  </li>
+                
+              </ul>
+            </div>
           
 
           
@@ -610,7 +698,7 @@
     
       <span class="post-meta-item-text">Symbols count total: </span>
     
-    <span title="Symbols count total">4k</span>
+    <span title="Symbols count total">11k</span>
   
 
   
@@ -621,7 +709,7 @@
     
       <span class="post-meta-item-text">Reading time total &asymp;</span>
     
-    <span title="Reading time total">0:04</span>
+    <span title="Reading time total">0:11</span>
   
 </div>
 
@@ -632,7 +720,7 @@
 
 
 
-  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/theme-next/hexo-theme-next">NexT.Gemini</a> v6.2.0</div>
+  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/theme-next/hexo-theme-next">NexT.Gemini</a> v6.3.0</div>
 
 
 
@@ -715,32 +803,32 @@
   
 
 
-  <script type="text/javascript" src="/js/src/utils.js?v=6.2.0"></script>
+  <script type="text/javascript" src="/js/src/utils.js?v=6.3.0"></script>
 
-  <script type="text/javascript" src="/js/src/motion.js?v=6.2.0"></script>
-
-
-
-  
-  
-
-
-  <script type="text/javascript" src="/js/src/affix.js?v=6.2.0"></script>
-
-  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=6.2.0"></script>
+  <script type="text/javascript" src="/js/src/motion.js?v=6.3.0"></script>
 
 
 
   
-  <script type="text/javascript" src="/js/src/scrollspy.js?v=6.2.0"></script>
-<script type="text/javascript" src="/js/src/post-details.js?v=6.2.0"></script>
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=6.3.0"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=6.3.0"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=6.3.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=6.3.0"></script>
 
 
 
   
 
 
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=6.2.0"></script>
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=6.3.0"></script>
 
 
 
@@ -815,9 +903,28 @@
 
   
     
-      <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@0.7.1/dist/katex.min.css" type="text/css">
+      <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      },
+      TeX: {equationNumbers: { autoNumber: "AMS" }}
+    });
+</script>
 
-   
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+      var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/mathjax@2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+    
   
 
 
