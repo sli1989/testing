@@ -1893,7 +1893,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #cc93ff;
+  background: #144658;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2207,15 +2207,13 @@ img:hover {
 .fa {
   font-family: FontAwesome !important;
 }
-.post-spread {
-  margin-top: 20px;
-  text-align: center;
-}
 .bdshare-slide-button-box a {
   border: none;
 }
 .bdsharebuttonbox {
-  display: inline-block;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
 }
 .bdsharebuttonbox a {
   border: none;
@@ -3055,8 +3053,7 @@ ul.breadcrumb li+li:last-child {
 }
 .post-eof,
 .post-spread {
-  margin-top: 0px;
-  background: #fff;
+  display: none !important;
 }
 .pagination {
   margin: 12px 0 0;
