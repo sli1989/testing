@@ -147,32 +147,6 @@
 
 
 
-	<div id="vk_api_transport"></div>
-	<script type="text/javascript">
-		window.vkAsyncInit = function() {
-			VK.init({
-				apiId: 6637363
-			});
-
-			
-				VK.Widgets.Like("vk_like", {type: "mini", height: 20});
-			
-
-			
-				VK.Widgets.Comments("vk_comments", {limit: 10, attach: "*"});
-			
-		};
-		setTimeout(function() {
-			var el = document.createElement("script");
-			el.type = "text/javascript";
-			el.src = "//vk.com/js/api/openapi.js";
-			el.async = true;
-			document.getElementById("vk_api_transport").appendChild(el);
-		}, 0);
-	</script>
-
-
-
 
 
 
@@ -410,7 +384,7 @@
                 
                   <span class="post-meta-item-text">Symbols count in article: </span>
                 
-                <span title="Symbols count in article">573</span>
+                <span title="Symbols count in article">570</span>
               
 
               
@@ -450,10 +424,7 @@
 
 </div>
 <h2 id="quick-start">Quick Start</h2>
-<div class="tabs" id="first-unique-name"><ul class="nav-tabs"><li class="tab active"><a href="#first-unique-name-1">First unique name 1</a></li><li class="tab"><a href="#first-unique-name-2">First unique name 2</a></li><li class="tab"><a href="#first-unique-name-3">First unique name 3</a></li></ul><div class="tab-content"><div class="tab-pane active" id="first-unique-name-1">**This is Tab 1.**
-</div><div class="tab-pane" id="first-unique-name-2">**This is Tab 2.**
-</div><div class="tab-pane" id="first-unique-name-3">**This is Tab 3.**
-</div></div></div>
+<div class="tabs" id="first-unique-name"><ul class="nav-tabs"><li class="tab active"><a href="#first-unique-name-1">First unique name 1</a></li><li class="tab"><a href="#first-unique-name-2">First unique name 2</a></li><li class="tab"><a href="#first-unique-name-3">First unique name 3</a></li></ul><div class="tab-content"><div class="tab-pane active" id="first-unique-name-1">**This is Tab 1.**</div><div class="tab-pane" id="first-unique-name-2">**This is Tab 2.**</div><div class="tab-pane" id="first-unique-name-3">**This is Tab 3.**</div></div></div>
 <h3 id="create-a-new-post">Create a new post</h3>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
@@ -501,81 +472,6 @@
 
       
       
-        <div class="post-widgets">
-        
-          <div class="wp_rating">
-            <div id="wpac-rating"></div>
-          </div>
-        
-
-        
-          
-             <span class="post-meta-divider">|</span>
-          
-          <div class="social-like">
-            
-              <div class="vk_like">
-                <span id="vk_like"></span>
-              </div>
-            
-
-            
-          </div>
-        
-
-        
-          
-            
-              <span class="post-meta-divider">|</span>
-            
-          
-          <div class="social_share">
-            
-               <div>
-                 
-  <div class="bdsharebuttonbox">
-    <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
-    <a href="#" class="bds_douban" data-cmd="douban" title="分享到豆瓣网"></a>
-    <a href="#" class="bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a>
-    <a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a>
-    <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
-    <a href="#" class="bds_tieba" data-cmd="tieba" title="分享到百度贴吧"></a>
-    <a href="#" class="bds_twi" data-cmd="twi" title="分享到Twitter"></a>
-    <a href="#" class="bds_fbook" data-cmd="fbook" title="分享到Facebook"></a>
-    <a href="#" class="bds_more" data-cmd="more"></a>
-    <a class="bds_count" data-cmd="count"></a>
-  </div>
-  <script>
-    window._bd_share_config = {
-      "common": {
-        "bdText": "",
-        "bdMini": "2",
-        "bdMiniList": false,
-        "bdPic": ""
-      },
-      "share": {
-        "bdSize": "16",
-        "bdStyle": "0"
-      },
-      "image": {
-        "viewList": ["tsina", "douban", "sqq", "qzone", "weixin", "twi", "fbook"],
-        "viewText": "分享到：",
-        "viewSize": "16"
-      }
-    }
-  </script>
-
-<script>
-  with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
-</script>
-
-               </div>
-            
-            
-          </div>
-        
-        </div>
-      
       
 
       
@@ -610,10 +506,6 @@
   </article>
 
 
-
-    <div class="post-spread">
-      
-    </div>
   </div>
 
 
@@ -622,9 +514,7 @@
 
   
     <div class="comments" id="comments">
-      <div id="vk_comments"></div>
     </div>
-
   
 
 
@@ -891,6 +781,7 @@
 	
     
 
+    
   </div>
 
   
@@ -913,6 +804,10 @@
 
 
 
+
+  
+    
+  
 
 
 
@@ -939,6 +834,11 @@
   
   
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/velocity-animate@1.2.1/velocity.ui.min.js"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/canvas-nest.js@2.0.1/dist/canvas-nest.min.js"></script>
   
 
 
@@ -1067,23 +967,6 @@
 
   
   
-  <script type="text/javascript">
-  wpac_init = window.wpac_init || [];
-  wpac_init.push({widget: 'Rating', id: 12707,
-    el: 'wpac-rating',
-    color: 'fc6423'
-  });
-  (function() {
-    if ('WIDGETPACK_LOADED' in window) return;
-    WIDGETPACK_LOADED = true;
-    var mc = document.createElement('script');
-    mc.type = 'text/javascript';
-    mc.async = true;
-    mc.src = '//embed.widgetpack.com/widget.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(mc, s.nextSibling);
-  })();
-  </script>
-
 
   
   
