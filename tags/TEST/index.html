@@ -114,7 +114,7 @@
 <meta name="keywords" content="Hexo, NexT">
 <meta property="og:type" content="website">
 <meta property="og:title" content="NexT Test">
-<meta property="og:url" content="http://test.saili.science/tags/TEST/index.html">
+<meta property="og:url" content="http://test.saili.science/tags/test/index.html">
 <meta property="og:site_name" content="NexT Test">
 <meta property="og:description" content="There is no royal road to learning.">
 <meta property="og:locale" content="en">
@@ -129,7 +129,7 @@
 
 
 
-  <link rel="canonical" href="http://test.saili.science/tags/TEST/"/>
+  <link rel="canonical" href="http://test.saili.science/tags/test/"/>
 
 
 
@@ -139,7 +139,7 @@
   };
 </script>
 
-  <title>Tag: TEST | NexT Test</title>
+  <title>Tag: test | NexT Test</title>
   
 
 
@@ -297,6 +297,44 @@
     <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br />Tags<span class="badge">6</span></a>
 
   </li>
+        
+        
+        
+          
+            
+            
+            
+              
+              
+
+  
+  
+    
+  
+  <li class="menu-item menu-item-docs">
+
+    
+    
+    
+      
+    
+
+    
+      
+    
+
+    <a href="/docs/" rel="section"><i class="menu-item-icon fa fa-fw fa-book"></i> <br />Docs</a>
+
+  </li>
+
+
+            
+          
+            
+            
+            
+          
+        
 
       
       
@@ -318,6 +356,16 @@
       
     
       
+      
+    
+      
+      
+
+        
+        
+        
+        
+
       
     
     
@@ -356,7 +404,7 @@
 
     <div id="posts" class="posts-collapse">
       <div class="collection-title">
-        <h1>TEST<small>Tag</small>
+        <h1>test<small>Tag</small>
         </h1>
       </div>
 
@@ -368,37 +416,9 @@
 
       <h2 class="post-title">
         
-            <a class="post-title-link" href="/posts/post-meta-test-2/" itemprop="url">
+            <a class="post-title-link" href="/posts/chinese-post-test/" itemprop="url">
               
-                <span itemprop="name">POST MEAT TEST 2</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-05-21T12:39:04+08:00"
-              content="2018-05-21" >
-          05-21
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-      
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/posts/post-meta-test/" itemprop="url">
-              
-                <span itemprop="name">POST MEAT TEST</span>
+                <span itemprop="name">中文測試</span>
               
             </a>
         
@@ -406,9 +426,9 @@
 
       <div class="post-meta">
         <time class="post-time" itemprop="dateCreated"
-              datetime="2018-05-20T12:39:04+08:00"
-              content="2018-05-20" >
-          05-20
+              datetime="2017-08-14T08:35:17+08:00"
+              content="2017-08-14" >
+          08-14
         </time>
       </div>
 
@@ -867,12 +887,6 @@
 </script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/mathjax@2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
-<style>
-.MathJax_Display {
-    overflow: auto hidden;
-}
-</style>
-
     
   
 
@@ -942,6 +956,35 @@
           return $(e).text()
         }).toArray().join('\n')
         var ta = document.createElement('textarea')
+        document.body.appendChild(ta)
+        ta.style.position = 'absolute'
+        ta.style.top = '0px'
+        ta.style.left = '0px'
+        ta.value = code
+        ta.select()
+        ta.focus()
+        var result = document.execCommand('copy')
+        document.body.removeChild(ta)
+        
+          if(result)$(this).text('Copied')
+          else $(this).text('Copy failed')
+        
+        $(this).blur()
+      })).on('mouseleave', function (e) {
+        var $b = $(this).find('.copy-btn')
+        setTimeout(function () {
+          $b.text('Copy')
+        }, 300)
+      }).append(e)
+    })
+  </script>
+
+
+  
+
+</body>
+</html>
+extarea')
         document.body.appendChild(ta)
         ta.style.position = 'absolute'
         ta.style.top = '0px'
