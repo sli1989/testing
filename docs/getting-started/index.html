@@ -17,23 +17,13 @@
 <html class="theme-next muse use-motion" lang="en">
 <head>
   <meta charset="UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2"/>
-<meta name="theme-color" content="#222">
+<meta name="theme-color" content="#222"/>
 
 
 
 
-
-
-
-
-
-
-
-
-<meta http-equiv="Cache-Control" content="no-transform" />
-<meta http-equiv="Cache-Control" content="no-siteapp" />
 
 
 
@@ -58,23 +48,21 @@
 
   
 
-<link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css"/>
 
-<link href="/css/main.css?v=6.5.0" rel="stylesheet" type="text/css" />
-
-
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=6.5.0">
+<link rel="stylesheet" href="/css/main.css?v=7.0.1"/>
 
 
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=6.5.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.0.1">
 
 
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=6.5.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=7.0.1">
 
 
-  <link rel="mask-icon" href="/images/logo.svg?v=6.5.0" color="#222">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=7.0.1">
 
 
+  <link rel="mask-icon" href="/images/logo.svg?v=7.0.1" color="#222">
 
 
 
@@ -82,13 +70,15 @@
 
 
 
-<script type="text/javascript" id="hexo.configurations">
+<script id="hexo.configurations">
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
     scheme: 'Muse',
-    version: '6.5.0',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":true,"onmobile":true},
+    version: '7.0.1',
+    sidebar: {"position":"left","display":"post","offset":12,"onmobile":true,"dimmer":false,"b2t":false,"scrollpercent":true},
+    back2top: true,
+    back2top_sidebar: false,
     fancybox: false,
     fastclick: false,
     lazyload: false,
@@ -127,7 +117,7 @@
 
 
 
-  <link rel="alternate" href="http://www.tmtpost.com/rss.xml" title="NexT Test" type="application/atom+xml" />
+  <link rel="alternate" href="http://www.tmtpost.com/rss.xml" title="NexT Test" type="application/atom+xml"/>
 
 
 
@@ -136,7 +126,7 @@
 
 
 
-<script type="text/javascript" id="page.configurations">
+<script id="page.configurations">
   CONFIG.page = {
     sidebar: "",
   };
@@ -155,30 +145,29 @@
 
 
 
+
   <noscript>
-  <style type="text/css">
-    .use-motion .motion-element,
-    .use-motion .brand,
-    .use-motion .menu-item,
-    .sidebar-inner,
-    .use-motion .post-block,
-    .use-motion .pagination,
-    .use-motion .comments,
-    .use-motion .post-header,
-    .use-motion .post-body,
-    .use-motion .collection-title { opacity: initial; }
+  <style>
+  .use-motion .motion-element,
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-title { opacity: initial; }
 
-    .use-motion .logo,
-    .use-motion .site-title,
-    .use-motion .site-subtitle {
-      opacity: initial;
-      top: initial;
-    }
+  .use-motion .logo,
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
 
-    .use-motion {
-      .logo-line-before i { left: initial; }
-      .logo-line-after i { right: initial; }
-    }
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
   </style>
 </noscript>
 
@@ -196,7 +185,7 @@
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-wrapper">
-  <div class="site-meta ">
+  <div class="site-meta">
     
 
     <div class="custom-logo-site-title">
@@ -206,6 +195,7 @@
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
+    
     
   </div>
 
@@ -240,7 +230,7 @@
       
     
 
-    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br />Home</a>
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br/>Home</a>
 
   </li>
         
@@ -259,7 +249,7 @@
       
     
 
-    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br />Archives<span class="badge">7</span></a>
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br/>Archives<span class="badge">7</span></a>
 
   </li>
         
@@ -278,7 +268,7 @@
       
     
 
-    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br />Categories<span class="badge">3</span></a>
+    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br/>Categories<span class="badge">3</span></a>
 
   </li>
         
@@ -297,7 +287,7 @@
       
     
 
-    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br />Tags<span class="badge">6</span></a>
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br/>Tags<span class="badge">6</span></a>
 
   </li>
         
@@ -326,7 +316,7 @@
       
     
 
-    <a href="/docs/" rel="section"><i class="menu-item-icon fa fa-fw fa-book"></i> <br />Docs</a>
+    <a href="/docs/" rel="section"><i class="menu-item-icon fa fa-fw fa-book"></i> <br/>Docs</a>
 
   </li>
 
@@ -404,7 +394,7 @@
       
     
 
-    <a href="/docs/https:/github.com/theme-next/hexo-theme-next" rel="section"><i class="menu-item-icon fa fa-fw fa-flag"></i> <br />Getting Started</a>
+    <a href="/docs/https:/github.com/theme-next/hexo-theme-next" rel="section"><i class="menu-item-icon fa fa-fw fa-flag"></i> <br/>Getting Started</a>
 
   </li>
 
@@ -446,10 +436,6 @@
 
                   
                   
-                  
-                    
-                  
-                    
                   
                     
                   
@@ -503,7 +489,9 @@
     <div class="post-block page">
       <header class="post-header">
 
-<h1 class="post-title" itemprop="name headline">Getting Started</h1>
+<h1 class="post-title" itemprop="name headline">Getting Started
+
+</h1>
 
 <div class="post-meta">
   
@@ -519,10 +507,10 @@
       
       
         
-          <li><a href="/docs/">DOCS</a></li>
           
             
           
+          <li><a href="/docs/">DOCS</a></li>
         
       
     
@@ -553,7 +541,9 @@
 <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlv" title="https://hexo.io">Hexo<i class="fa fa-external-link"></i></span>
 is a fast and powerful static blog generating framework, it's based on <span class="exturl" data-url="aHR0cHM6Ly9ub2RlanMub3Jn" title="https://nodejs.org">Node.js<i class="fa fa-external-link"></i></span>. By using Hexo you can write articles easily with Markdown, and besides the grammer of Markdown, you can also use <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdGFnLXBsdWdpbnMuaHRtbA==" title="https://hexo.io/docs/tag-plugins.html">tag plugins<i class="fa fa-external-link"></i></span> provided by Hexo to insert special formated content simply. In this page we assume you have installed Hexo and created a site with it.
 </p>
-<div class="note info">You can visit <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvaW5kZXguaHRtbA==" title="https://hexo.io/docs/index.html">Hexo Docs<i class="fa fa-external-link"></i></span> to see how to install Hexo.</div>
+<div class="note info">
+            You can visit <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlvL2RvY3MvaW5kZXguaHRtbA==" title="https://hexo.io/docs/index.html">Hexo Docs<i class="fa fa-external-link"></i></span> to see how to install Hexo.
+          </div>
 <h3 id="documentation-variables">Documentation Variables</h3>
 <div class="tabs" id="common-variables"><ul class="nav-tabs"><li class="tab active"><a href="#common-variables-1">_config.yml</a></li><li class="tab"><a href="#common-variables-2"><code>Available Settings</code></a></li><li class="tab"><a href="#common-variables-3"><strong><code>Default Settings</code></strong></a></li></ul><div class="tab-content"><div class="tab-pane active" id="common-variables-1">There are two main configuration files using by Hexo and both called `_config.yml`:
 
@@ -571,8 +561,12 @@ Open your Terminal, change to Hexo <span class="label info">site root directory<
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> hexo</span><br><span class="line">$ git <span class="built_in">clone</span> https://github.com/theme-next/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure></div><div class="tab-pane" id="downloading-next-2">1. Go to NexT version <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQvaGV4by10aGVtZS1uZXh0L3JlbGVhc2Vz" title="https://github.com/theme-next/hexo-theme-next/releases">Release Page<i class="fa fa-external-link"></i></span>.
 2. Choose the version you need and download the Source Code (zip) in the Download section. For example v6.0.0.
 3. Extract the zip file to site's themes directory and rename the extracted folder (`hexo-theme-next-6.0.0`) to `next`.</div></div></div>
-<div class="note primary">You also can read [detailed installation instructions](/docs/getting-started/installation/) if you want any other installation variant.</div>
-<div class="note warning">If you still use NexT version 5, you can read [instructions for update from v5 to v6](/docs/getting-started/update-from-v5/).</div>
+<div class="note primary">
+            You also can read [detailed installation instructions](/docs/getting-started/installation/) if you want any other installation variant.
+          </div>
+<div class="note warning">
+            If you still use NexT version 5, you can read [instructions for update from v5 to v6](/docs/getting-started/update-from-v5/).
+          </div>
 <h4 id="enabling-next">Enabling NexT</h4>
 <p>Like all Hexo themes, after you download it, open <span class="label info">site config file</span>, find <code>theme</code> section, and change its value to <code>next</code> (or another theme directory name).</p>
 <figure class="highlight yml"><figcaption><span>hexo/_config.yml</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">theme:</span> <span class="string">next</span></span><br></pre></td></tr></table></figure>
@@ -581,7 +575,9 @@ Open your Terminal, change to Hexo <span class="label info">site root directory<
 <p>First start Hexo local server, and enable debug parameter (by adding <code>--debug</code>), the whole command is <code>hexo s --debug</code>. You can see the output while running, and if you find problem, you can use the output to help others locate error better. When it prints:</p>
 <pre><code>INFO  Hexo is running at http://0.0.0.0:4000/. Press Ctrl+C to stop.</code></pre>
 <p>Now you can open <code>http://localhost:4000</code> in your browser, and check whether the site works correctly.</p>
-<div class="note success">If you find your site looks like this picture, you have installed it correctly. That’s default NexT scheme – Muse.<img src="http://theme-next.iissnan.com/uploads/five-minutes-setup/validation-default-scheme-mac.png" title="NexT Muse" alt="NexT Muse"></div>
+<div class="note success">
+            If you find your site looks like this picture, you have installed it correctly. That’s default NexT scheme – Muse.<img src="http://theme-next.iissnan.com/uploads/five-minutes-setup/validation-default-scheme-mac.png" title="NexT Muse" alt="NexT Muse">
+          </div>
 <p>Now you've installed and enabled NexT. In next steps we will change some settings including personalization and third-party services integration.</p>
 <h4 id="adding-plugins">Adding Plugins</h4>
 <p>There are 2 variants to hook up NexT plugins:</p>
@@ -589,7 +585,9 @@ Open your Terminal, change to Hexo <span class="label info">site root directory<
 <li>Local installation (plugins scripts will loaded from your site).</li>
 <li>CDN links (plugins scripts will loaded from remote hosts).</li>
 </ul>
-<div class="note info">If your site hosted on VPN (or any other) server with NGINX configuration, recommended to use local installation.And if your files deployed to any free hosting service (Github, Gitlab, etc.), recommended to use CDN links.</div>
+<div class="note info">
+            If your site hosted on VPN (or any other) server with NGINX configuration, recommended to use local installation.And if your files deployed to any free hosting service (Github, Gitlab, etc.), recommended to use CDN links.
+          </div>
 <div class="tabs" id="adding-plugins"><ul class="nav-tabs"><li class="tab active"><a href="#adding-plugins-1">Local</a></li><li class="tab"><a href="#adding-plugins-2">CDN</a></li></ul><div class="tab-content"><div class="tab-pane active" id="adding-plugins-1">In NexT config now you can find dependencies on each module which was moved to external repositories which can be found by <span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL3RoZW1lLW5leHQ=" title="https://github.com/theme-next">main organization link<i class="fa fa-external-link"></i></span>. For example, you want to use `fancybox` in your site. Go to <span class="label primary">theme config file</span> and see:
 
 <figure class="highlight yml"><figcaption><span>next/_config.yml</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Dependencies: https://github.com/theme-next/theme-next-fancybox</span></span><br><span class="line"><span class="attr">fancybox:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
@@ -701,20 +699,28 @@ And we also provide other optional CDNs, including the famous <span class="extur
 </tr>
 </tbody>
 </table>
-<div class="note primary">If you want to add or improve language for NexT theme, you can do it easily with <span class="exturl" data-url="aHR0cHM6Ly9jcndkLmluL3RoZW1lLW5leHQ=" title="https://crwd.in/theme-next">crowdin<i class="fa fa-external-link"></i></span> service.</div>
+<div class="note primary">
+            If you want to add or improve language for NexT theme, you can do it easily with <span class="exturl" data-url="aHR0cHM6Ly9jcndkLmluL3RoZW1lLW5leHQ=" title="https://crwd.in/theme-next">crowdin<i class="fa fa-external-link"></i></span> service.
+          </div>
 <h4 id="configuring-menu-items">Configuring Menu Items</h4>
 <p>Menu settings items have format <code>Key: /link/ || icon</code> which contains 3 values:</p>
 <div class="tabs" id="menu-items"><ul class="nav-tabs"><li class="tab active"><a href="#menu-items-1"><code>Key</code></a></li><li class="tab"><a href="#menu-items-2"><code>link</code></a></li><li class="tab"><a href="#menu-items-3"><code>icon</code></a></li></ul><div class="tab-content"><div class="tab-pane active" id="menu-items-1">`Key` → is the name of menu item (`home`, `archives`, etc.).
 If translate for this menu will be found in languages, this translate will be loaded; if not, `Key` name will be used.
-<div class="note danger">`Key` value is case sensitive (e.g. `home` is not same as `Home`).</div></div><div class="tab-pane" id="menu-items-2">Value before `||` delimeter (`/link/`) → is the target link to relative url inside your site.</div><div class="tab-pane" id="menu-items-3">Value after `||` delimeter (`icon`) → is the name of FontAwesome icon.
+<div class="note danger">
+            `Key` value is case sensitive (e.g. `home` is not same as `Home`).
+          </div></div><div class="tab-pane" id="menu-items-2">Value before `||` delimeter (`/link/`) → is the target link to relative url inside your site.</div><div class="tab-pane" id="menu-items-3">Value after `||` delimeter (`icon`) → is the name of FontAwesome icon.
 If icon (with or without delimeter) is not specified, question icon will be loaded.
 Names of that icons can be found in <span class="exturl" data-url="aHR0cHM6Ly9mb250YXdlc29tZS5jb20=" title="https://fontawesome.com">Font Awesome<i class="fa fa-external-link"></i></span> site.</div></div></div>
 <p>By default NexT provides <code>home</code> and <code>archives</code> items. To customize menu items, edit the following content in <span class="label primary">theme config file</span>:</p>
-<div class="note warning">All custom pages which commented by default under `menu` section need to create manually. See [«Custom Page Support»](/docs/theme-settings/#Custom-Page-Support)</div>
+<div class="note warning">
+            All custom pages which commented by default under `menu` section need to create manually. See [«Custom Page Support»](/docs/theme-settings/#Custom-Page-Support)
+          </div>
 <figure class="highlight yml"><figcaption><span>next/_config.yml</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">menu:</span></span><br><span class="line"><span class="attr">  home:</span> <span class="string">/</span> <span class="string">||</span> <span class="string">home</span></span><br><span class="line">  <span class="comment">#about: /about/ || user</span></span><br><span class="line">  <span class="comment">#tags: /tags/ || tags</span></span><br><span class="line">  <span class="comment">#categories: /categories/ || th</span></span><br><span class="line"><span class="attr">  archives:</span> <span class="string">/archives/</span> <span class="string">||</span> <span class="string">archive</span></span><br><span class="line">  <span class="comment">#schedule: /schedule/ || calendar</span></span><br><span class="line">  <span class="comment">#sitemap: /sitemap.xml || sitemap</span></span><br><span class="line">  <span class="comment">#commonweal: /404/ || heartbeat</span></span><br></pre></td></tr></table></figure>
 <p>Dynamic sub-menu within hierarchy structure is also supported. Add your sub-menu items in <code>menu</code> section in <span class="label primary">theme config file</span> as following:</p>
 <figure class="highlight yml"><figcaption><span>next/_config.yml</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">menu:</span></span><br><span class="line"><span class="attr">  home:</span> <span class="string">/</span> <span class="string">||</span> <span class="string">home</span></span><br><span class="line"><span class="attr">  archives:</span> <span class="string">/archives/</span> <span class="string">||</span> <span class="string">archive</span></span><br><span class="line"><span class="attr">  Docs:</span></span><br><span class="line"><span class="attr">    default:</span> <span class="string">/docs/</span> <span class="string">||</span> <span class="string">book</span></span><br><span class="line">    <span class="string">Third</span> <span class="string">Party</span> <span class="attr">Services:</span></span><br><span class="line"><span class="attr">      default:</span> <span class="string">/third-party-services/</span> <span class="string">||</span> <span class="string">plug</span></span><br><span class="line">      <span class="string">Algolia</span> <span class="attr">Search:</span> <span class="string">/algolia-search/</span> <span class="string">||</span> <span class="string">adn</span></span><br></pre></td></tr></table></figure>
-<div class="note info">If your site runs in a sub-directory, please remove the prefix `/` from the link.</div>
+<div class="note info">
+            If your site runs in a sub-directory, please remove the prefix `/` from the link.
+          </div>
 <p>By default NexT shows the icons of menu items without badges.</p>
 <div class="tabs" id="menu_settings"><ul class="nav-tabs"><li class="tab active"><a href="#menu_settings-1"><code>icons</code></a></li><li class="tab"><a href="#menu_settings-2"><code>badges</code></a></li></ul><div class="tab-content"><div class="tab-pane active" id="menu_settings-1">You can configure it by editing values in `menu_settings.icons` section in <span class="label primary">theme config file</span>.
 
@@ -737,7 +743,9 @@ Then you need to specify your own avatar. It can be done one of the ways below:
 And then change option to `avatar: /uploads/avatar.png`.</div><div class="tab-pane" id="avatar1-2">Put your avatar under <span class="label primary">theme directory</span> `source/images/`.
 And then change option to `avatar: /images/avatar.png`.
 
-<div class="note info">Current site uses avatar under <span class="label primary">theme directory</span> from file located in `next/source/images/apple-touch-icon-next.png` with following config:<figure class="highlight yml"><figcaption><span>hexo/_config.yml</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">theme_config:</span></span><br><span class="line"><span class="attr">  avatar:</span></span><br><span class="line"><span class="attr">    url:</span> <span class="string">/images/apple-touch-icon-next.png</span></span><br><span class="line"><span class="attr">    rounded:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">    opacity:</span> <span class="number">1</span></span><br><span class="line"><span class="attr">    rotated:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure></div></div><div class="tab-pane" id="avatar1-3">You also can specify any external URL with absolute path to image: `http(s)://example.com/avatar.png`</div></div></div></div><div class="tab-pane" id="avatar-2">Set up rounded of avatar by changing the value of `avatar.rounded`:
+<div class="note info">
+            Current site uses avatar under <span class="label primary">theme directory</span> from file located in `next/source/images/apple-touch-icon-next.png` with following config:<figure class="highlight yml"><figcaption><span>hexo/_config.yml</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">theme_config:</span></span><br><span class="line"><span class="attr">  avatar:</span></span><br><span class="line"><span class="attr">    url:</span> <span class="string">/images/apple-touch-icon-next.png</span></span><br><span class="line"><span class="attr">    rounded:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">    opacity:</span> <span class="number">1</span></span><br><span class="line"><span class="attr">    rotated:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
+          </div></div><div class="tab-pane" id="avatar1-3">You also can specify any external URL with absolute path to image: `http(s)://example.com/avatar.png`</div></div></div></div><div class="tab-pane" id="avatar-2">Set up rounded of avatar by changing the value of `avatar.rounded`:
 
 * `true` → Avatar will be rounded.
 * **`false`** → Avatar will be squared.
@@ -771,7 +779,9 @@ And then change option to `avatar: /images/avatar.png`.
 <li>Edit the file directly online, effective immediately</li>
 <li>Automatic deployment, simultaneous deployment to multiple locations</li>
 </ul>
-<div class="note info"><span class="exturl" data-url="aHR0cHM6Ly93YWZlci5saS9IZXhvLyVFOCVBNyVBMyVFNSU4NiVCMyUyMFRyYXZpcyUyMENJJTIwJUU2JTgwJUJCJUU2JTk4JUFGJUU2JTlCJUI0JUU2JTk2JUIwJUU2JTk3JUE3JUU1JThEJTlBJUU1JUFFJUEyJUU3JTlBJTg0JUU5JTk3JUFFJUU5JUEyJTk4Lw==" title="https://wafer.li/Hexo/%E8%A7%A3%E5%86%B3%20Travis%20CI%20%E6%80%BB%E6%98%AF%E6%9B%B4%E6%96%B0%E6%97%A7%E5%8D%9A%E5%AE%A2%E7%9A%84%E9%97%AE%E9%A2%98/">Wafer<i class="fa fa-external-link"></i></span> solved the problem of CI always updating old blogs.</div>
+<div class="note info">
+            <span class="exturl" data-url="aHR0cHM6Ly93YWZlci5saS9IZXhvLyVFOCVBNyVBMyVFNSU4NiVCMyUyMFRyYXZpcyUyMENJJTIwJUU2JTgwJUJCJUU2JTk4JUFGJUU2JTlCJUI0JUU2JTk2JUIwJUU2JTk3JUE3JUU1JThEJTlBJUU1JUFFJUEyJUU3JTlBJTg0JUU5JTk3JUFFJUU5JUEyJTk4Lw==" title="https://wafer.li/Hexo/%E8%A7%A3%E5%86%B3%20Travis%20CI%20%E6%80%BB%E6%98%AF%E6%9B%B4%E6%96%B0%E6%97%A7%E5%8D%9A%E5%AE%A2%E7%9A%84%E9%97%AE%E9%A2%98/">Wafer<i class="fa fa-external-link"></i></span> solved the problem of CI always updating old blogs.
+          </div>
 <div class="tabs" id="ci"><ul class="nav-tabs"><li class="tab active"><a href="#ci-1">Travis CI</a></li><li class="tab"><a href="#ci-2">Gitlab CI</a></li></ul><div class="tab-content"><div class="tab-pane active" id="ci-1">Travis CI enables your team to test and ship your apps with confidence. It’s built for everyone and for projects and teams of all sizes, supporting over 20 different languages out of the box, including Javascript and Node.js, Ruby, PHP, Python, Mac/iOS, as well as Docker, while giving you full control over the build environment to customize it to your own needs.
 
 <div class="tabs" id="ci1"><ul class="nav-tabs"><li class="tab active"><a href="#ci1-1">Get permissions →</a></li><li class="tab"><a href="#ci1-2">Configure <code>.travis.yml</code></a></li></ul><div class="tab-content"><div class="tab-pane active" id="ci1-1">There are two ways to obtain the necessary permissions for Travis CI. Deploy Key has the advantage of high security, while Access Token has the advantage of being more flexible.
@@ -831,10 +841,10 @@ There are two ways to configure `.gitlab-ci.yml`:
       
       
         
-          <li><a href="/docs/">DOCS</a></li>
           
             
           
+          <li><a href="/docs/">DOCS</a></li>
         
       
     
@@ -863,6 +873,7 @@ There are two ways to configure `.gitlab-ci.yml`:
   
     <div class="comments" id="comments">
     </div>
+
   
 
 
@@ -880,9 +891,6 @@ There are two ways to configure `.gitlab-ci.yml`:
   </div>
 
   <aside id="sidebar" class="sidebar">
-    
-      <div id="sidebar-dimmer"></div>
-    
     <div class="sidebar-inner">
 
       
@@ -898,16 +906,16 @@ There are two ways to configure `.gitlab-ci.yml`:
         </ul>
       
 
-      <section class="site-overview-wrap sidebar-panel">
+      <div class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
               <img class="site-author-image" itemprop="image"
                 src="/uploads/avatar.jpg"
-                alt="NexT Test" />
+                alt="NexT Test"/>
             
               <p class="site-author-name" itemprop="name">NexT Test</p>
-              <p class="site-description motion-element" itemprop="description">There is no royal road to learning.</p>
+              <div class="site-description motion-element" itemprop="description">There is no royal road to learning.</div>
           </div>
 
           
@@ -927,7 +935,11 @@ There are two ways to configure `.gitlab-ci.yml`:
                 
                 
                 <div class="site-state-item site-state-categories">
-                  <a href="/categories/index.html">
+                  
+                    
+                      <a href="/categories/">
+                    
+                  
                     
                     
                       
@@ -946,7 +958,11 @@ There are two ways to configure `.gitlab-ci.yml`:
                 
                 
                 <div class="site-state-item site-state-tags">
-                  <a href="/tags/index.html">
+                  
+                    
+                      <a href="/tags/">
+                    
+                  
                     
                     
                       
@@ -1068,15 +1084,16 @@ There are two ways to configure `.gitlab-ci.yml`:
           
 
         </div>
-      </section>
+      </div>
 
       
       <!--noindex-->
-        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
           <div class="post-toc">
 
             
-              
+            
+            
             
 
             
@@ -1084,7 +1101,7 @@ There are two ways to configure `.gitlab-ci.yml`:
             
 
           </div>
-        </section>
+        </div>
       <!--/noindex-->
       
 
@@ -1092,6 +1109,7 @@ There are two ways to configure `.gitlab-ci.yml`:
 
     </div>
   </aside>
+  
 
 
         
@@ -1100,7 +1118,7 @@ There are two ways to configure `.gitlab-ci.yml`:
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
   <span class="with-love" id="animate">
     <i class="fa fa-heart"></i>
   </span>
@@ -1134,7 +1152,7 @@ There are two ways to configure `.gitlab-ci.yml`:
 
 
 
-  <div class="theme-info">Theme – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> v6.5.0</div>
+  <div class="theme-info">Theme – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> v7.0.1</div>
 
 
 
@@ -1156,13 +1174,11 @@ There are two ways to configure `.gitlab-ci.yml`:
       <div class="back-to-top">
         <i class="fa fa-arrow-up"></i>
         
-          <span id="scrollpercent"><span>0</span>%</span>
-        
       </div>
     
 
     
-	
+
     
 
     
@@ -1170,7 +1186,7 @@ There are two ways to configure `.gitlab-ci.yml`:
 
   
 
-<script type="text/javascript">
+<script>
   if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
     window.Promise = null;
   }
@@ -1191,11 +1207,11 @@ There are two ways to configure `.gitlab-ci.yml`:
 
   
     
+    
       
-        
-      
+    
   
-  <script type="text/javascript" color='238,59,59' opacity='0.5' zIndex='-2' count='99' src="//cdn.jsdelivr.net/gh/theme-next/theme-next-canvas-nest@1.0.0/canvas-nest-nomobile.min.js"></script>
+  <script color='238,59,59' opacity='0.5' zIndex='-2' count='99' src="//cdn.jsdelivr.net/gh/theme-next/theme-next-canvas-nest@1.0.0/canvas-nest-nomobile.min.js"></script>
 
 
 
@@ -1204,101 +1220,95 @@ There are two ways to configure `.gitlab-ci.yml`:
 
 
 
-
-
-
-
-
-  
-  
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@2.1.3/dist/jquery.min.js"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/velocity-animate@1.2.1/velocity.min.js"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/velocity-animate@1.2.1/velocity.ui.min.js"></script>
-  
-
-
-  
-
-
-  <script type="text/javascript" src="/js/src/utils.js?v=6.5.0"></script>
-
-  <script type="text/javascript" src="/js/src/motion.js?v=6.5.0"></script>
-
-
-
-  
-  
-
-  
-  <script type="text/javascript" src="/js/src/scrollspy.js?v=6.5.0"></script>
-<script type="text/javascript" src="/js/src/post-details.js?v=6.5.0"></script>
-
-
-
-  
-
-
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=6.5.0"></script>
-
-
-
-  
-
-
-
-  
-
-
-
-
-
-
-
-
-  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-  
-  
-  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
-  
-  <script type="text/javascript">
-    var GUEST = ['nick','mail','link'];
-    var guest = 'nick,mail,link';
-    guest = guest.split(',').filter(function (item) {
-      return GUEST.indexOf(item)>-1;
-    });
-    new Valine({
-        el: '#comments' ,
-        verify: false,
-        notify: false,
-        appId: 'uIrzS1i60S024CvU6ATzr4y7-gzGzoHsz',
-        appKey: '9o0rnB856nyqXPURwBBncFkR',
-        placeholder: 'Leave your email, just comment here...',
-        avatar:'wavatar',
-        meta:guest,
-        pageSize:'10' || 10,
-        visitor: false
-    });
-  </script>
-
-
-
-  
 
 
 
 
 
   
+  <script src="https://cdn.jsdelivr.net/npm/jquery@2.1.3/dist/jquery.min.js"></script>
 
   
+  <script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.2.1/velocity.min.js"></script>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.2.1/velocity.ui.min.js"></script>
+
+
+  
+
+
+  <script src="/js/src/utils.js?v=7.0.1"></script>
+
+  <script src="/js/src/motion.js?v=7.0.1"></script>
+
+
+
+  
+  
+
+
+  <script src="/js/src/schemes/muse.js?v=7.0.1"></script>
+
+
+
+  
+  <script src="/js/src/scrollspy.js?v=7.0.1"></script>
+<script src="/js/src/post-details.js?v=7.0.1"></script>
+
+
+
+  
+
+
+  <script src="/js/src/next-boot.js?v=7.0.1"></script>
+
+
+  
+
+  
+
+  
+
+  
+  
+
+<script src="//cdn1.lncld.net/static/js/3.11.1/av-min.js"></script>
+
+
+
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+
+<script>
+  var GUEST = ['nick', 'mail', 'link'];
+  var guest = 'nick,mail,link';
+  guest = guest.split(',').filter(function(item) {
+    return GUEST.indexOf(item) > -1;
+  });
+  new Valine({
+    el: '#comments',
+    verify: false,
+    notify: false,
+    appId: 'uIrzS1i60S024CvU6ATzr4y7-gzGzoHsz',
+    appKey: '9o0rnB856nyqXPURwBBncFkR',
+    placeholder: 'Leave your email, just comment here...',
+    avatar: 'wavatar',
+    meta: guest,
+    pageSize: '10' || 10,
+    visitor: false
+  });
+</script>
+
+
+
+
+  
+
+
+  
+
+
+
 
   
 
@@ -1313,31 +1323,63 @@ There are two ways to configure `.gitlab-ci.yml`:
   
     
       <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-      tex2jax: {
-        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
-        processEscapes: true,
-        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-      },
-      TeX: {equationNumbers: { autoNumber: "AMS" }}
+  
+
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$', '$'], ['\\(', '\\)'] ],
+      processEscapes: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    },
+    TeX: {
+      
+      equationNumbers: {
+        autoNumber: 'AMS'
+      }
+    }
+  });
+  MathJax.Hub.Register.StartupHook('TeX Jax Ready', function() {
+    MathJax.InputJax.TeX.prefilterHooks.Add(function(data) {
+      if (data.display) {
+        var next = data.script.nextSibling;
+        while (next && next.nodeName.toLowerCase() === '#text') { next = next.nextSibling }
+        if (next && next.nodeName.toLowerCase() === 'br') { next.parentNode.removeChild(next) }
+      }
     });
+  });
 </script>
 
 <script type="text/x-mathjax-config">
-    MathJax.Hub.Queue(function() {
-      var all = MathJax.Hub.getAllJax(), i;
-        for (i=0; i < all.length; i += 1) {
-          all[i].SourceElement().parentNode.className += ' has-jax';
-        }
-    });
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for (i = 0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
 </script>
-<script type="text/javascript" src="//cdn.jsdelivr.net/npm/mathjax@2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script src="//cdn.jsdelivr.net/npm/mathjax@2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+<style>
+.MathJax_Display {
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+</style>
 
     
   
 
 
   
+
+  
+
+  
+
+  
+
+  
+
   
 
   
@@ -1346,87 +1388,88 @@ There are two ways to configure `.gitlab-ci.yml`:
     
   
   <script src="https://cdn.jsdelivr.net/npm/pangu@3.3.0/dist/browser/pangu.min.js"></script>
-  <script type="text/javascript">pangu.spacingPage();</script>
+  <script>pangu.spacingPage();</script>
 
 
   
 
   
-
-  
-
-  
-  <style>
-    .copy-btn {
-      display: inline-block;
-      padding: 6px 12px;
-      font-size: 13px;
-      font-weight: 700;
-      line-height: 20px;
-      color: #333;
-      white-space: nowrap;
-      vertical-align: middle;
-      cursor: pointer;
+<style>
+  .copy-btn {
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #333;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    
       background-color: #eee;
       background-image: linear-gradient(#fcfcfc, #eee);
       border: 1px solid #d5d5d5;
       border-radius: 3px;
-      user-select: none;
-      outline: 0;
-    }
+    
+    user-select: none;
+    outline: 0;
+  }
 
-    .highlight-wrap .copy-btn {
-      transition: opacity .3s ease-in-out;
-      opacity: 0;
-      padding: 2px 6px;
-      position: absolute;
+  .highlight-wrap .copy-btn {
+    transition: opacity .3s ease-in-out;
+    opacity: 0;
+    padding: 2px 6px;
+    position: absolute;
+    
       right: 4px;
       top: 8px;
-    }
+    
+  }
 
-    .highlight-wrap:hover .copy-btn,
-    .highlight-wrap .copy-btn:focus {
-      opacity: 1
-    }
+  .highlight-wrap:hover .copy-btn,
+  .highlight-wrap .copy-btn:focus {
+    opacity: 1;
+  }
 
-    .highlight-wrap {
-      position: relative;
-    }
-  </style>
-  <script>
-    $('.highlight').each(function (i, e) {
-      var $wrap = $('<div>').addClass('highlight-wrap')
-      $(e).after($wrap)
-      $wrap.append($('<button>').addClass('copy-btn').append('Copy').on('click', function (e) {
-        var code = $(this).parent().find('.code').find('.line').map(function (i, e) {
-          return $(e).text()
-        }).toArray().join('\n')
-        var ta = document.createElement('textarea')
-        document.body.appendChild(ta)
-        ta.style.position = 'absolute'
-        ta.style.top = '0px'
-        ta.style.left = '0px'
-        ta.value = code
-        ta.select()
-        ta.focus()
-        var result = document.execCommand('copy')
-        document.body.removeChild(ta)
-        
-          if(result)$(this).text('Copied')
-          else $(this).text('Copy failed')
-        
-        $(this).blur()
-      })).on('mouseleave', function (e) {
-        var $b = $(this).find('.copy-btn')
-        setTimeout(function () {
-          $b.text('Copy')
-        }, 300)
-      }).append(e)
-    })
-  </script>
+  .highlight-wrap {
+    position: relative;
+  }
+</style>
+<script>
+  $('.highlight').each(function(i, e) {
+    var $wrap = $('<div>').addClass('highlight-wrap');
+    $(e).after($wrap);
+    $wrap.append($('<button>').addClass('copy-btn').append('Copy').on('click', function(e) {
+      var code = $(this).parent().find('.code').find('.line').map(function(i, e) {
+        return $(e).text();
+      }).toArray().join('\n');
+      var ta = document.createElement('textarea');
+      var yPosition = window.pageYOffset || document.documentElement.scrollTop;
+      ta.style.top = yPosition + 'px'; // Prevent page scroll
+      ta.style.position = 'absolute';
+      ta.style.opacity = '0';
+      ta.readOnly = true;
+      ta.value = code;
+      document.body.appendChild(ta);
+      ta.select();
+      ta.setSelectionRange(0, code.length);
+      ta.readOnly = false;
+      var result = document.execCommand('copy');
+      
+        if (result) $(this).text('Copied');
+        else $(this).text('Copy failed');
+      
+      ta.blur(); // For iOS
+      $(this).blur();
+    })).on('mouseleave', function(e) {
+      var $b = $(this).find('.copy-btn');
+      setTimeout(function() {
+        $b.text('Copy');
+      }, 300);
+    }).append(e);
+  })
+</script>
 
-
-  
 
 </body>
 </html>
